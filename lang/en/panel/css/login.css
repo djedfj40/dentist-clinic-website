@@ -1,0 +1,313 @@
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+        html, body {
+            overflow-x: hidden; 
+            margin: auto;
+        
+            background-color: white;
+        }
+     
+    .buttonup{
+ 
+        position: fixed;
+       background-color: ;
+        z-index:1;
+        top: 870;
+        right: -430;
+           margin: auto;
+        }
+        
+        .border{
+         border: solid;
+            background-color: #2D2B2B;
+            position:relative;
+             background-image: url("../../images/dentist.jpg");
+            background-repeat: no-repeat;
+             background-position:-50 center;
+            background-size:cover;
+           height: 100%;
+            width:110%;
+            min-height: 10%;
+            min-width: 10%;
+            max-width: 7670px;
+            max-height:700px;
+            opacity: 1;
+            color:white;
+            top: -117px;
+            left: -15.7px;
+            opacity: 0.82;
+            
+        }
+        
+        .anasayfa{
+            position:relative;
+            border: ridge;
+            margin:auto
+            border-width: 2;
+            width: 100%;
+            padding-top:3%;
+            padding-bottom: 0.7%;
+            border-color: #006666;
+            background-color: #006666;
+            height: 6%;
+            top: 70;
+            color:   #333333;
+        }
+        
+        .homeicon{
+            
+            position:relative;
+            top: -3%;
+            left: 24%;
+           padding-top:1.4%;
+            
+        }
+        .hakkımızda{
+            
+            position:relative;
+            margin-top: -6%;
+            margin-left: 570px;
+            color: white;
+            width: 112;
+            
+            
+        }
+        .hizmetler{
+            
+            position:relative;
+            margin-top: -39px;
+            margin-left: 770px;
+            color: white;
+            width: 139;
+            
+
+        }
+    .doktorlar{
+            
+            position:relative;
+            margin-top: -40px;
+        margin-left: 980px;
+            color: white;
+        width: 146px;
+        
+        }
+        .iletisim{
+            
+            position:relative;
+            margin-top: -40px;
+            margin-left: 1190px;
+            color: white;
+            width: 78px;
+            
+        }
+        .appointmenthelper{
+            
+            
+            background-color:  #ff9900;
+            position:relative;  
+            color: white;
+            width: 9.5%;
+            height: 6%;
+            margin-top: -3.3%;
+            margin-left: 105%;
+            margin:auto;
+            
+           
+            
+        
+        }
+        .randevuresim{
+            
+            margin-top: -55px;
+            margin-left: 1410px;
+            position:relative;
+            color: white;
+            width: 4;
+            background-color:blue;
+        
+        }
+        .randevuyazı{
+            position:relative;
+            color: white;
+        margin-top: -46px;
+            margin-left: 1470px;
+            width: 105;
+            
+        }
+
+.upborder{
+    
+    background-image: url(../images/saat.png) ;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position:360 0;
+    border:solid;
+    width:9000px;
+    height:26px;
+    background-color:#e6ebe8;
+    color:#e6ebe8;
+    
+}
+
+.time{
+    
+ position:relative;
+  bottom:37px;
+   left:390px;
+    opacity: 0.8
+    
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 70%;
+padding-left:px;  
+    height:60%;
+    min-height:20%;
+        max-height:1500;
+  position: relative;
+    margin:auto;
+    top:400px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    position:relative;
+        top:400px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+    
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.facebooklogo{
+    position:relative;
+  width:0px;
+    height:0%;
+    bottom:240px;
+    background-color:red;
+    margin:auto;
+    padding-right:200px;
+    background-color:red;
+}
+.instagramlogo{
+    position:relative;
+    bottom:240px;
+    margin:auto;
+    height:0px;
+    width:0px;
+    background-color:red;
+}
+.logo{
+    position:relative;
+    left:25%;
+    bottom:15.7%;
+       width:1%;
+    height:1%;
+    
+}
+
+.enaltborder{
+    position:relative;
+    
+        height:50px;
+    bottom:129px;
+    color: #006080;
+    background-color:   #006080;
+ 
+    
+}
+.copyrighttext{
+    position:relative;
+    color:whte;
+    bottom:163px;
+    width:270px;
+   height:0px;
+        margin:auto;
+    color:white;
+   
+}
